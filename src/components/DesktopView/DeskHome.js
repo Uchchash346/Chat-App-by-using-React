@@ -1,11 +1,12 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import DeskHeader from './DeskHeader/DeskHeader';
 import DeskNavBar from './DeskNavBar';
 
 const DeskHome = () => {
     return (
         <div>
             <DeskNavBar />
+            <DeskHeader />
         </div>
     );
 };

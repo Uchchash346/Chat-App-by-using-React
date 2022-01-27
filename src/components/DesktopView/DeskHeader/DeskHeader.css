@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.header-area{
+    margin-left: 250px;
+    font-weight: bold;
+}
+.chat-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.sort-text{
+    
+    font-weight: normal;
+    font-size: 25px;
+}
+.menu-icon{
+    margin-left: 300px;
+    font-size: 30px;
+}
+
+.user-image-area{
+    height: 40px;
+    width: 40px;
+}
+
+.user-name{
+    font-weight: normal;
+    padding-left:20px;
+}
+
+FaArrowDown{
+    padding-left: 20px;
+}
