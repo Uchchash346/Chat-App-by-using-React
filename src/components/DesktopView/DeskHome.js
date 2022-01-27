@@ -1,5 +1,6 @@
 import React from 'react';
 import DeskHeader from './DeskHeader/DeskHeader';
+import DeskMessage from './DeskMessage/DeskMessage';
 import DeskNavBar from './DeskNavBar';
 
 const DeskHome = () => {
@@ -7,6 +8,7 @@ const DeskHome = () => {
         <div>
             <DeskNavBar />
             <DeskHeader />
+            <DeskMessage />
         </div>
     );
 };
