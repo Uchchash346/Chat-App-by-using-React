@@ -8,13 +8,13 @@ import image1 from "../../../images/image1.png"
 const DeskHeader = () => {
     return (
         <div className="header-area mt-4">
-            <div class="row">
-                <div class="col">
+            <div className="row">
+                <div className="col">
                     <a href="/">
                         <span className="chat-text">Chat</span><CgMenuGridR className="menu-icon" /><span className="sort-text">Sort</span>
                     </a>
                 </div>
-                <div class="col mt-4">
+                <div className="col mt-4">
                     <a href="">
                         <VscBellDot className="menu-icon" /><span><img src={image1} alt="" className="ms-3 user-image-area" /></span><span className="user-name">Prakash</span><FaArrowDown className="ms-3" />
                     </a>
